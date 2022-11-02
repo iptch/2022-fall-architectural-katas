@@ -5,6 +5,11 @@ Public repository to upload deliverables for O'Reillys 2022 Fall Architectural K
 Team IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We all are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) in Zurich, Switzerland.
 
 ## Requirements
+The following overview exhibits all actors participating in the system with their main intentions and capabilities.
+More specifics can be found in the functional requirements section below.
+
+![Context Diagram](requirements/resources/hey-blue-actors-overview.drawio.png)
+
 We grouped the requirements for the **Hey, Blue!** application into the following two sections.  
 - [Functional requirements](requirements/functional-requirements.md)
 - [Non-functional requirements](requirements/non-functional-requirements.md)  
