@@ -14,7 +14,7 @@ The design document provided by the Product Owner does not specify the process o
 ## Decision
 The User can list and checkout offerings of all Businesses in the **Hey, Blue!** webshop (1). The User pays **Hey, Blue!** at checkout via a trusted Payment Provider (e.g. PayPal, Credit Card) (2). **Hey, Blue!** then places the order at the corresponding Business (3). If the Business accepts the order it sends a confirmation to **Hey, Blue!** (4) und the products directly to the User (5). The Business is then paid by **Hey, Blue!** (e.g. directly, monthly).
 
-![](../resources/hey-blue-redeem-points-modelling.drawio.svg)
+![](./resources/hey-blue-redeem-points-modelling.drawio.svg)
 
 ## Consequences
 Not ordered by importance:

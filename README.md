@@ -54,7 +54,9 @@ media companies. More information can be found here:  [Reporting Capability](dom
 ![Reporting Capability](domain/resources/hey-blue-report.drawio.svg)
 
 #### Order capability
-TODO
+The order capability describes the service landscape enabling Civilians or Charities to redeem their points. For more details see [Order Capability](domain/order-capability.md).
+
+![Order Capability](domain/resources/hey-blue-order-capability.drawio.svg)
 
 #### User
 TODO
