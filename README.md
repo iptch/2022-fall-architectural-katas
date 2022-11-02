@@ -42,7 +42,11 @@ here: [Connection Capability](domain/connection-capability.md).
 ![Connection Capability](domain/resources/hey-blue-connection.drawio.png)
 
 #### Reporting capability
-TODO
+
+The reporting capability covers the service landscape enabling Hey, Blue! staff to generate reports and share them with 
+media companies. More information can be found here:  [Reporting Capability](domain/reporting-capability.md)
+
+![Reporting Capability](domain/resources/hey-blue-report.drawio.png)
 
 #### Order capability
 TODO
