@@ -36,7 +36,10 @@ TODO: Overview of complete architecture.
 Now we add the sub-architectures.
 
 #### Connection capability
-TODO: Put in the view and link to [Connection Capability](domain/connection-capability.md).
+The connection capability describes the micro-service landscape enabling civilians and officers to make a 
+connection incl. all the processes around this central happening. The capability is described in more detail
+here: [Connection Capability](domain/connection-capability.md).
+![Connection Capability](domain/resources/hey-blue-connection.drawio.png)
 
 #### Reporting capability
 TODO
