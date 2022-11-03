@@ -65,6 +65,10 @@ TODO: Give description.
 - [User capability](#user-capability)  
 TODO: Give description.
 
+For the following, if not stated otherwise in the diagram at hand, the symbols reflect the meaning as described in the following legend.
+<p align="center">
+<img width="800" src="domain/resources/hey-blue-legend.drawio.svg">
+</p>
 
 #### Connection capability
 The connection capability describes the micro-service landscape enabling civilians and officers to make a 
