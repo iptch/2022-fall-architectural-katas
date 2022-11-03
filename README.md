@@ -8,9 +8,8 @@ Team IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthau
 The following overview exhibits all actors participating in the system with their main intentions and capabilities.
 More specifics can be found in the functional requirements section below.
 
-<!-- NOTE: IntelliJ is broken and cannot display html tag images with relative paths :-( -->
 <p align="center">
-<img width="800" src="https://github.com/iptch-public/2022-fall-architectural-katas/blob/main/requirements/resources/hey-blue-actors-overview.drawio.png?raw=true" alt="hey-blue-actors-overview">
+<img width="800" src="requirements/resources/hey-blue-actors-overview.drawio.svg">
 </p>
 
 We grouped the requirements for the **Hey, Blue!** application into the following two sections.  
@@ -28,7 +27,9 @@ The actors are being divided into internal, i.e. actors which are internal to th
 e.g., civilians and officers using the application. That way we receive a clear picture who profits from this ecosystem
 and what the intends and desires of those actors might be.
 
-![Context Diagram](context/resources/hey-blue-context-digram.drawio.svg)
+<p align="center">
+<img width="800" src="context/resources/hey-blue-context-digram.drawio.svg">
+</p>
 
 ## Domain Design
 ### Event-Storming process
@@ -45,19 +46,31 @@ Now we add the sub-architectures.
 The connection capability describes the micro-service landscape enabling civilians and officers to make a 
 connection incl. all the processes around this central happening. The capability is described in more detail
 here: [Connection Capability](domain/connection-capability.md).
-![Connection Capability](domain/resources/hey-blue-connection.drawio.png)
+
+<p align="center">
+<img width="800" src="domain/resources/hey-blue-connection.drawio.svg">
+</p>
+
+<p align="center">
+<img width="600" src="domain/resources/hey-blue-connection-legend.drawio.svg">
+</p>
 
 #### Reporting capability
 
 The reporting capability covers the service landscape enabling Hey, Blue! staff to generate reports and share them with 
 media companies. More information can be found here:  [Reporting Capability](domain/reporting-capability.md)
 
-![Reporting Capability](domain/resources/hey-blue-report.drawio.svg)
+<p align="center">
+<img width="650" src="domain/resources/hey-blue-report.drawio.svg">
+</p>
+
 
 #### Order capability
 The order capability describes the service landscape enabling Civilians or Charities to redeem their points. For more details see [Order Capability](domain/order-capability.md).
 
-![Order Capability](domain/resources/hey-blue-order-capability.drawio.svg)
+<p align="center">
+<img width="900" src="domain/resources/hey-blue-order-capability.drawio.svg">
+</p>
 
 #### User
 TODO
@@ -67,3 +80,12 @@ TODO: Describe clean architecture with Connection Service example.
 
 ## System Architecture
 TODO: Add Azure Cloud Architecture with ADR why Azure und ADRs for decisions.
+
+<!-- 
+HTML IMG TEMPLATE FOR IMAGES
+
+<p align="center">
+<img width="800" src="relative/path/to">
+</p>
+
+-->
