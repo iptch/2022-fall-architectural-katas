@@ -99,7 +99,7 @@ The order capability describes the service landscape enabling Civilians or Chari
 <img width="900" src="domain/resources/hey-blue-order-capability.drawio.svg">
 </p>
 
-It should be mentioned that the process of redeeming points is a triangular contract between a user (might be a civilian or charity in that case), the business itself and the Hey, Blue! webshop as shown in the following diagram. Find more details to this design decision in the respective architecture desicion record [ADR points redemption framework](ADRs/redeem-points.md).
+It should be mentioned that the process of redeeming points is a triangular contract between a user (might be a civilian or charity in that case), the business itself and the Hey, Blue! webshop as shown in the following diagram. Find more details to this design decision in the respective architecture desicion record [ADR points redemption framework](ADRs/03-redeem-points.md).
 
 <p align="center">
 <img width="550" src="ADRs/resources/hey-blue-redeem-points-modelling.drawio.svg">
