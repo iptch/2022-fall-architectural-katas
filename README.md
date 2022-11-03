@@ -8,8 +8,9 @@ Team IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthau
 The following overview exhibits all actors participating in the system with their main intentions and capabilities.
 More specifics can be found in the functional requirements section below.
 
-<p>
-<img width="800" src="./requirements/resources/hey-blue-actors-overview.drawio.png" alt="hey-blue-actors-overview">
+<!-- NOTE: IntelliJ is broken and cannot display html tag images with relative paths :-( -->
+<p align="center">
+<img width="800" src="https://github.com/iptch-public/2022-fall-architectural-katas/blob/main/requirements/resources/hey-blue-actors-overview.drawio.png?raw=true" alt="hey-blue-actors-overview">
 </p>
 
 We grouped the requirements for the **Hey, Blue!** application into the following two sections.  
