@@ -32,15 +32,39 @@ and what the intends and desires of those actors might be.
 </p>
 
 ## Domain Design
+Now that all the actors and intents in the system are well understood, it's time to map these requirements into domain model which defines a common terminology and crystallizes out lower level components of the domain landscape. These components are grouped into so-called capabilities which form the basis for the final software architecture based on microservices. 
+We tackle this challenge by employing [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design). This approach enables us to subdivide the overarching problem statement into meaningful sub-domains based on business requirements and come up with a scalable, modularized and extensible software architecture.
+
 ### Event-Storming process
-How we did that stuff...
+[Event Storming](https://www.eventstorming.com/) is a technique to develop a common understanding of all involved stakeholders, that is, domain experts, managers and the development team, of the domain at hand. Our approach was as follows:
+- First we identified the major events taking place in the system due to some actor's interactions (orange stickers).
+- We placed the actor (small yellow stickers) along with the intent for the action (blue stickers) next to the event.
+- Those Actore-Command-Event groupings would be combined to meaningful Aggregates (large yellow stickers), which are logical entities making up the domain model.
+- We identified hot spots (dark pink stickers) or open questions and resolved those during discussions.
+- External systems (light pink stickers) have been added.
+- We regrouped all the aggregates into logical system capabilities (green stickers). For each capabilitiy (e.g. "Connection", that is all the components involved in a civilian and an officer performing a digital handshake, a connection) a microservice landscape has been developed (see [Domain capabilities](#domain-capabilities)).
+
+The following picture shows the final state of the Event Storming session after re-grouping Aggregates and extracting capabilities. The distilled Aggregates emerge prominently in the final architecture representing the commonly developed terminology and understanding of the domain.
+<p align="center">
+<img width="800" src="eventstorming/resources/event-storming-final-panel.png">
+</p>
+
 
 ### Domain capabilities
-The fields we came up with using event storming to form micro-service landscapes...
+Based on the output of the Event Storming, we defined the following capabilities for each of which we developed a microservice architecture.
 
-TODO: Overview of complete architecture.
+- [Connection capability](#connection-capability)  
+This is the heart piece of the Hey, Blue! ecosystem enabling civilians and officers to connect. This includes the possibility for officers to enroll in the look-up for civilians such that civilians can find officers online, the actual virutal handshake itself along with the respective notifications, rewards and awarding of points. Handshakes can only happen in proximity and connections might be shared over social media.
 
-Now we add the sub-architectures.
+- [Reporting capability](#reporting-capability)  
+TODO: Give description.
+
+- [Order capability](#order-capability)  
+TODO: Give description.
+
+- [User capability](#user-capability)  
+TODO: Give description.
+
 
 #### Connection capability
 The connection capability describes the micro-service landscape enabling civilians and officers to make a 
@@ -56,7 +80,6 @@ here: [Connection Capability](domain/connection-capability.md).
 </p>
 
 #### Reporting capability
-
 The reporting capability covers the service landscape enabling Hey, Blue! staff to generate reports and share them with 
 media companies. More information can be found here:  [Reporting Capability](domain/reporting-capability.md)
 
@@ -72,7 +95,7 @@ The order capability describes the service landscape enabling Civilians or Chari
 <img width="900" src="domain/resources/hey-blue-order-capability.drawio.svg">
 </p>
 
-#### User
+#### User capability
 TODO
 
 ## Service Architecture
