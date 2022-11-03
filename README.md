@@ -119,10 +119,10 @@ TODO: Add Azure Cloud Architecture with ADR why Azure und ADRs for decisions.
 ## Architecture Decision Records (ADR) Overview
 This summary provides an overview of the ADRs we refer to in the appropriate sections above. An ADR includes the context, i.e. the problem statement, a solution space, a decision, rationale and the decisions consequences.
 
-- ADR01 - [Microservice Architecture](ADRs/microservice-architecture.md)
-- ADR02 - [Backend-for-Frontend Pattern](ADRs/bff.md)
-- ADR03 - [Points redemption framework](ADRs/redeem-points.md)
-- ADR04 - [Dispatcher architecture](ADRs/dispatcher-architecture.md)
+- ADR01 - [Microservice Architecture](ADRs/01-microservice-architecture.md)
+- ADR02 - [Backend-for-Frontend Pattern](ADRs/02-bff.md)
+- ADR03 - [Points redemption framework](ADRs/03-redeem-points.md)
+- ADR04 - [Dispatcher architecture](ADRs/04-dispatcher-architecture.md)
 
 
 <!--               NOTES                >
