@@ -8,7 +8,9 @@ Team IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthau
 The following overview exhibits all actors participating in the system with their main intentions and capabilities.
 More specifics can be found in the functional requirements section below.
 
-![Context Diagram](requirements/resources/hey-blue-actors-overview.drawio.png)
+<p>
+<img width="800" src="./requirements/resources/hey-blue-actors-overview.drawio.png" alt="hey-blue-actors-overview">
+</p>
 
 We grouped the requirements for the **Hey, Blue!** application into the following two sections.  
 - [Functional requirements](requirements/functional-requirements.md)
