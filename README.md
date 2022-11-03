@@ -18,16 +18,14 @@ While the former explains the desired functionalities of the application, descri
 represents a set of technical guidelines the system has to adhere to.
 
 ## Context
-In the following we will describe what actors (user or system) might interact in what way with the **Hey, Blue!** system.
-Those interactions are analyzed in the following two dimensions  
-
-1) What is the intent of the interaction? What is the goal of an interaction?
-2) What data is being exchanged between the actor and the system?
+In the following we will describe what actors (can be a user, participant or system) might interact in what way with the **Hey, Blue!** system.
+For that matter, the diagram displays the main capabilities or intentions a user or system has to its disposal. 
 
 The actors are being divided into internal, i.e. actors which are internal to the **Hey, Blue!** ecosystem and external actors,
 e.g., civilians and officers using the application. That way we receive a clear picture who profits from this ecosystem
 and what the intends and desires of those actors might be.
-![Context Diagram](context/resources/context-diagram-dummy.jpg)
+
+![Context Diagram](context/resources/hey-blue-context-digram.drawio.svg)
 
 ## Domain Design
 ### Event-Storming process
