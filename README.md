@@ -39,7 +39,7 @@ We tackle this challenge by employing [Domain Driven Design](https://en.wikipedi
 [Event Storming](https://www.eventstorming.com/) is a technique to develop a common understanding of all involved stakeholders, that is, domain experts, managers and the development team, of the domain at hand. Our approach was as follows:
 - First we identified the major events taking place in the system due to some actor's interactions (orange stickers).
 - We placed the actor (small yellow stickers) along with the intent for the action (blue stickers) next to the event.
-- Those Actore-Command-Event groupings would be combined to meaningful Aggregates (large yellow stickers), which are logical entities making up the domain model.
+- Those Actor-Command-Event groupings would be combined to meaningful Aggregates (large yellow stickers), which are logical entities making up the domain model.
 - We identified hot spots (dark pink stickers) or open questions and resolved those during discussions.
 - External systems (light pink stickers) have been added.
 - We regrouped all the aggregates into logical system capabilities (green stickers). For each capabilitiy (e.g. "Connection", that is all the components involved in a civilian and an officer performing a digital handshake, a connection) a microservice landscape has been developed (see [Domain capabilities](#domain-capabilities)).
