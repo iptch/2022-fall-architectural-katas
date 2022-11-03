@@ -80,7 +80,7 @@ here: [Connection Capability](domain/connection-capability.md).
 </p>
 
 <p align="center">
-<img width="600" src="domain/resources/hey-blue-connection-legend.drawio.svg">
+<img width="450" src="domain/resources/hey-blue-connection-legend.drawio.svg">
 </p>
 
 #### Reporting capability
@@ -126,6 +126,7 @@ This summary provides an overview of the ADRs we refer to in the appropriate sec
 
 
 <!--               NOTES                >
+
 <!-- 
 HTML IMG TEMPLATE FOR IMAGES
 
