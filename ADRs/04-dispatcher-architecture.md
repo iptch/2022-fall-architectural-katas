@@ -1,4 +1,4 @@
-# Dipatcher Architecure
+# ADR04 Dispatcher Architecure
 
 ## Title
 Design of the service responsible for dispatching orders to participating businesses

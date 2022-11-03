@@ -99,7 +99,7 @@ The order capability describes the service landscape enabling Civilians or Chari
 <img width="900" src="domain/resources/hey-blue-order-capability.drawio.svg">
 </p>
 
-It should be mentioned that the process of redeeming points is a triangular contract between a user (might be a civilian or charity in that case), the business itself and the Hey, Blue! webshop as shown in the following diagram. Find more details to this design decision in the respective architecture desicion record [ADR points redemption framework](ADRs/03-redeem-points.md).
+It should be mentioned that the process of redeeming points is a triangular contract between a user (might be a civilian or charity in that case), the business itself and the Hey, Blue! webshop as shown in the following diagram. Find more details to this design decision in the respective architecture desicion record [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md).
 
 <p align="center">
 <img width="550" src="ADRs/resources/hey-blue-redeem-points-modelling.drawio.svg">
@@ -119,10 +119,10 @@ TODO: Add Azure Cloud Architecture with ADR why Azure und ADRs for decisions.
 ## Architecture Decision Records (ADR) Overview
 This summary provides an overview of the ADRs we refer to in the appropriate sections above. An ADR includes the context, i.e. the problem statement, a solution space, a decision, rationale and the decisions consequences.
 
-- ADR01 - [Microservice Architecture](ADRs/01-microservice-architecture.md)
-- ADR02 - [Backend-for-Frontend Pattern](ADRs/02-bff.md)
-- ADR03 - [Points redemption framework](ADRs/03-redeem-points.md)
-- ADR04 - [Dispatcher architecture](ADRs/04-dispatcher-architecture.md)
+- [ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md)
+- [ADR02 Backend-for-Frontend Pattern](ADRs/02-bff.md)
+- [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
+- [ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
 
 
 <!--               NOTES                >

@@ -1,4 +1,4 @@
-# Redeem Points
+# ADR03 Points Redemption Framework
 
 ## Title
 How do Civilians and Charities redeem their Points?

@@ -30,7 +30,7 @@ The order capability describes the service landscape enabling Civilians or Chari
 - Updates order state when an order is dispatched or shipped
 
 ### Dispatcher
-- Microkernel Architecture with Plugins for communicating orders with Businesses (see [ADR04](../ADRs/04-dispatcher-architecture.md)).
+- Microkernel Architecture with Plugins for communicating orders with Businesses (see [ADR04 Dispatcher Architecture](../ADRs/04-dispatcher-architecture.md)).
 - Takes orders from Order services.
 - Sends order to Business.
 - Receives order confirmation, declines and shipment updates from Business.
