@@ -53,60 +53,34 @@ The following picture shows the final state of the Event Storming session after 
 ### Domain capabilities
 Based on the output of the Event Storming, we defined the following capabilities for each of which we developed a microservice architecture.
 
-- [Connection capability](#connection-capability)  
-This is the heart piece of the Hey, Blue! ecosystem enabling civilians and officers to connect. This includes the possibility for officers to enroll in the look-up for civilians such that civilians can find officers online, the actual virutal handshake itself along with the respective notifications, rewards and awarding of points. Handshakes can only happen in proximity and connections might be shared over social media.
+<table>
+<tr>
+    <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/connection-capability.md">Connection Capability<br>
+        <p>This is the heart piece of the Hey, Blue! ecosystem enabling civilians and officers to connect. This includes the possibility for officers to enroll in the look-up for civilians such that civilians can find officers online, the actual virutal handshake itself along with the respective notifications, rewards and awarding of points. Handshakes can only happen in proximity and connections might be shared over social media.</p>
+        <img src="domain/resources/hey-blue-connection.drawio.svg"></a>
+    </td>
+    <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/reporting-capability.md">Reporting Capability<br>
+        <p>The reporting capability covers the service landscape enabling Hey, Blue! staff to generate reports and share them with media companies.</p>
+        <img src="domain/resources/hey-blue-report.drawio.svg"></a>
+    </td>
+</tr>
+<tr>
+    <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/order-capability.md">Order Capability<br>
+        <p>The order capability describes the service landscape enabling Civilians or Charities to redeem their points.</p>
+        <img src="domain/resources/hey-blue-order-capability.drawio.svg"></a>
+    </td>
+    <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/user-capability.md">User Capability<br>
+        <p>TODO: Give description</p>
+        <img src="TODO: Draw Diagram"></a>
+    </td>
+</tr>
 
-- [Reporting capability](#reporting-capability)  
-TODO: Give description.
+</table>
 
-- [Order capability](#order-capability)  
-TODO: Give description.
-
-- [User capability](#user-capability)  
-TODO: Give description.
-
-For the following, if not stated otherwise in the diagram at hand, the symbols reflect the meaning as described in the following legend.
+For all of the above, if not stated otherwise in the diagram at hand, the symbols reflect the meaning as described in the following legend.
 <p align="center">
 <img width="800" src="domain/resources/hey-blue-legend.drawio.svg">
 </p>
-
-#### Connection capability
-The connection capability describes the micro-service landscape enabling civilians and officers to make a 
-connection incl. all the processes around this central happening. The capability is described in more detail
-here: [Connection Capability](domain/connection-capability.md).
-
-<p align="center">
-<img width="800" src="domain/resources/hey-blue-connection.drawio.svg">
-</p>
-
-<p align="center">
-<img width="450" src="domain/resources/hey-blue-connection-legend.drawio.svg">
-</p>
-
-#### Reporting capability
-The reporting capability covers the service landscape enabling Hey, Blue! staff to generate reports and share them with 
-media companies. More information can be found here:  [Reporting Capability](domain/reporting-capability.md)
-
-<p align="center">
-<img width="650" src="domain/resources/hey-blue-report.drawio.svg">
-</p>
-
-
-#### Order capability
-The order capability describes the service landscape enabling Civilians or Charities to redeem their points. For more details see [Order Capability](domain/order-capability.md).
-
-<p align="center">
-<img width="900" src="domain/resources/hey-blue-order-capability.drawio.svg">
-</p>
-
-It should be mentioned that the process of redeeming points is a triangular contract between a user (might be a civilian or charity in that case), the business itself and the Hey, Blue! webshop as shown in the following diagram. Find more details to this design decision in the respective architecture desicion record [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md).
-
-<p align="center">
-<img width="550" src="ADRs/resources/hey-blue-redeem-points-modelling.drawio.svg">
-</p>
-
-#### User capability
-TODO
 
 ## Service Architecture
 TODO: Describe clean architecture with Connection Service example.
@@ -123,11 +97,13 @@ This summary provides an overview of the ADRs we refer to in the appropriate sec
 - [ADR02 Backend-for-Frontend Pattern](ADRs/02-bff.md)
 - [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
 - [ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
+- [ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
+
 
 
 <!--               NOTES                >
 
-<!-- 
+
 HTML IMG TEMPLATE FOR IMAGES
 
 <p align="center">

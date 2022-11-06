@@ -3,6 +3,8 @@ The reporting capability covers the service landscape enabling **Hey, Blue!** st
 media companies.
 
 ![Order Capability](resources/hey-blue-report.drawio.svg)
+<img width="750" src="resources/hey-blue-legend.drawio.svg">
+
 
 ## Services
 
