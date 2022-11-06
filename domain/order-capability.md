@@ -40,4 +40,4 @@ The order capability describes the service landscape enabling Civilians or Chari
 - Dedicated service to process notifications.
 
 ## Behavior
-TODO: create sequence diagram
+![](resources/hey-blue-order-behavior.drawio.svg)
