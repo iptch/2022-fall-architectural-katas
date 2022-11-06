@@ -1,7 +1,18 @@
 # Order Capability
-The order capability describes the service landscape enabling Civilians or Charities to redeem their points. The shown services support the architecture decision described in [](ADRs/redeem-points.md).
+The order capability describes the service landscape enabling Civilians or Charities to redeem their points. The shown 
+services support the architecture decision described in [the redeem points ADR](../ADRs/03-redeem-points.md).
 
 ![Order Capability](resources/hey-blue-order-capability.drawio.svg)
+<img width="750" src="resources/hey-blue-legend.drawio.svg">
+
+
+It should be mentioned that the process of redeeming points is a triangular contract between a user 
+(might be a civilian or charity in that case), the business itself and the **Hey, Blue!** webshop as 
+shown in the following diagram.
+
+<p align="center">
+<img width="550" src="../ADRs/resources/hey-blue-redeem-points-modelling.drawio.svg">
+</p>
 
 ## Services
 
@@ -41,3 +52,8 @@ The order capability describes the service landscape enabling Civilians or Chari
 
 ## Behavior
 ![](resources/hey-blue-order-behavior.drawio.svg)
+
+## Related ADRs
+- [BFF](../ADRs/02-bff.md)
+- [Dispatcher Architecture](../ADRs/04-dispatcher-architecture.md)
+- [Redeeming Points](../ADRs/03-redeem-points.md)
