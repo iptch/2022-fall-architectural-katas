@@ -15,6 +15,7 @@ shown in the following diagram.
 </p>
 
 ## Services
+The following list describes main responsibilities of the different services in the Order Capability.
 
 ### Catalog
 - Provides the catalog of purchasable goods and services
@@ -51,6 +52,8 @@ shown in the following diagram.
 - Dedicated service to process notifications.
 
 ## Behavior
+The following sequence diagram shows the control flow from the moment in which the User decides to checkout his cart.
+
 ![](resources/hey-blue-order-behavior.drawio.svg)
 
 ## Related ADRs
