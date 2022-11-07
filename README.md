@@ -16,7 +16,7 @@ We grouped the requirements for the **Hey, Blue!** application into the followin
 - [Functional requirements](requirements/functional-requirements.md)
 - [Non-functional requirements](requirements/non-functional-requirements.md)  
 
-While the former explains the desired functionalities of the application, describing possible user interactions, the former
+While the former explains the desired functionalities of the application, describing possible user interactions, the latter
 represents a set of technical guidelines the system has to adhere to.
 
 ## Context
