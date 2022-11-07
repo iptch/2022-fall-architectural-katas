@@ -69,10 +69,10 @@ Based on the output of the Event Storming, we defined the following capabilities
     <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/order-capability.md">Order Capability<br>
         <img width=400 src="domain/resources/hey-blue-order-capability.drawio.svg"></a>
         <p>The order capability describes the service landscape enabling Civilians or Charities to redeem their points.</p>
-    </td>
-    <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/user-capability.md">User Capability<br>
-        <img width=400 src="TODO: Draw Diagram"></a>
-        <p>TODO: Give description</p>
+    <td style="table-layout: fixed; width: 1000px" align="center">
+        <a href="domain/connection-capability.md">Connection Capability<br>
+        <img width=400 src="domain/resources/hey-blue-connection.drawio.svg"></a>
+        <p>TODO: THIS IS JUST A DUMMY TO FILL STUFF UP</p>
     </td>
 </tr>
 
