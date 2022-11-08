@@ -1,4 +1,4 @@
-# ADR05 GDPR Compliance
+# ADR06 GDPR Compliance
 
 ## Title
 GDPR compliance for all user data
