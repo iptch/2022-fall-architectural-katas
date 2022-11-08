@@ -105,6 +105,7 @@ This summary provides an overview of the ADRs we refer to in the appropriate sec
 - [ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
 - [ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
 - [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md)
+- [ADR08 Event Driven Design](ADRs/08-event-driven-design.md)
 
 
 <!--               NOTES                >
