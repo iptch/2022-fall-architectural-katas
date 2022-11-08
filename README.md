@@ -99,7 +99,7 @@ This summary provides an overview of the ADRs we refer to in the appropriate sec
 - [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
 - [ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
 - [ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
-
+- [ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
 
 
 <!--               NOTES                >
