@@ -36,18 +36,10 @@ Now that all the actors and intents in the system are well understood, it's time
 We tackle this challenge by employing [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design). This approach enables us to subdivide the overarching problem statement into meaningful sub-domains based on business requirements and come up with a scalable, modularized and extensible software architecture.
 
 ### Event-Storming process
-[Event Storming](https://www.eventstorming.com/) is a technique to develop a common understanding of all involved stakeholders, that is, domain experts, managers and the development team, of the domain at hand. Our approach was as follows:
-- First we identified the major events taking place in the system due to some actor's interactions (orange stickers).
-- We placed the actor (small yellow stickers) along with the intent for the action (blue stickers) next to the event.
-- Those Actor-Command-Event groupings would be combined to meaningful Aggregates (large yellow stickers), which are logical entities making up the domain model.
-- We identified hot spots (dark pink stickers) or open questions and resolved those during discussions.
-- External systems (light pink stickers) have been added.
-- We regrouped all the aggregates into logical system capabilities (green stickers). For each capabilitiy (e.g. "Connection", that is all the components involved in a civilian and an officer performing a digital handshake, a connection) a microservice landscape has been developed (see [Domain capabilities](#domain-capabilities)).
+[Event Storming](https://www.eventstorming.com/) is a technique to develop a common understanding of all 
+involved stakeholders, that is, domain experts, managers and the development team, of the domain at hand. 
+Read more details about our approach [here](eventstorming/event-storming.md).
 
-The following picture shows the final state of the Event Storming session after re-grouping Aggregates and extracting capabilities. The distilled Aggregates emerge prominently in the final architecture representing the commonly developed terminology and understanding of the domain.
-<p align="center">
-<img width="800" src="eventstorming/resources/event-storming-final-panel.png">
-</p>
 
 
 ### Domain capabilities
