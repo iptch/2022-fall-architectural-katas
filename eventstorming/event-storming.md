@@ -24,7 +24,7 @@ Event Storming lets everyone develop a common understanding. Part of this is def
 to our use case. When used in this proposal, the terms below are defined as follows:
 - **Officer**: Member of the police force, together with *Civilians* they form the group of *Users*.
 - **Civilian**: Individual who is not an *Officer*.
-- **User**: *Officers*, *Civilians*, *Chartiy* and *Businesses*.
+- **User**: *Officers*, *Civilians*, *Charities* and *Businesses*.
 - **Charity**: Any private sector entity to which *Users* can donate *Points*.
 - **Offering**: Commitment of *Businesses* and *Municipalities* to donate *Rewards* for certain amounts of *Points*.
 - **Business**: Private sector entity which publishes *Offerings* on the **Hey, Blue!** app.
