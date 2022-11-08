@@ -16,6 +16,7 @@ More specifics can be found in the functional requirements section below as well
 <p align="center">
 <img width="800" src="requirements/resources/hey-blue-actors-overview.drawio.svg">
 </p>
+
 For a legend refer to the section [Domain Design](#domain-design).
 
 
