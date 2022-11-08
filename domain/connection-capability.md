@@ -39,6 +39,7 @@ The following diagram describes the microservice architecture for this capabilit
 ### Notification
 - Handles incoming notifications and produces outgoing notifications for the user.
 - Makes sure the user is not spammed with notifications, so a history of notifications per user has to be retained. Example: A user is nearby a shop which participates on the Hey, Blue! Platform.
+- Notifications are being distributed over an asynchronous eventing system like Kafka or Azure Event Hub.
 
 ## Synchronous vs Asynchronous Calls
 Notifications and the awarding of points can be asynchronous to decouple the system and handle load spikes gracefully. Some operations like the lookup of an officer or the connection service querying the proximity matcher should be synchronous to receive an instantaneous result which blocks the current flow of interactions.
