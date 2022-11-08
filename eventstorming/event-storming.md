@@ -27,11 +27,11 @@ to our use case. When used in this proposal, the terms below are defined as foll
 - **User**: *Officers* and *Civilians*.
 - **Charity**: Any private sector entity to which *Users* can donate *Points*.
 - **Offering**: Commitment of *Businesses* and *Municipalities* to donate *Rewards* for certain amounts of *Points*.
-- **Business**: Private sector entity which publishes *Offerings* on the **Hey, blue!** app.
-- **Municipality**: Public sector entity which publishes *Offerings* on the **Hey, blue!** app.
-- **Connection**: Central building block of the **Hey, blue!** app. A *Connection* always happens between one *Officer* and one *Civilian*.
+- **Business**: Private sector entity which publishes *Offerings* on the **Hey, Blue!** app.
+- **Municipality**: Public sector entity which publishes *Offerings* on the **Hey, Blue!** app.
+- **Connection**: Central building block of the **Hey, Blue!** app. A *Connection* always happens between one *Officer* and one *Civilian*.
 - **Media Company**: Third Party to which regular reports are sent for dissemination to the public.
 - **Points**: In-App currency obtained by forming *Connections*. Can be exchanged for *Rewards*.
 - **Look-Up**: The process of a *Civilian* checking whether *Officers* are in his vicinity.
-- **Report**: Statistics and usage data showcasing the positive impact of **Hey, blue!** on the community.
+- **Report**: Statistics and usage data showcasing the positive impact of **Hey, Blue!** on the community.
 - **Reward**: Goods and Services which can be exchanged for points. Provided by *Businesses* and *Municipalities*.
