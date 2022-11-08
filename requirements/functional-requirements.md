@@ -1,4 +1,5 @@
 # Functional requirements
+The following list shows the requirements stated by the Founder of **Hey, Blue!**. Some of them were rephrased to fit the terminology used in this architecture document. All architecture decisions were made with to support those requirements.
 
 ## System
 - Web and Mobile-Based with backend processing and reporting and analytics to track site activity and connections
@@ -16,7 +17,11 @@
 - A connection can only happen if the Civilian and the Officer are within a distance of 10ft.
 - Civilians are able to find Officers that are willing to connect
 - Officers can not find Civilians
-- 
+- App has an intrinsic reward system
+- Users must verify themselves when registering
+- System must track how Points were spent
+- Users can see how many connections each participating Officer has made
+- System can track all participation by zip code
 
 ## Civilian
 - Create User Profile

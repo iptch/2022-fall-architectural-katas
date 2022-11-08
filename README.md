@@ -16,7 +16,7 @@ We grouped the requirements for the **Hey, Blue!** application into the followin
 - [Functional requirements](requirements/functional-requirements.md)
 - [Non-functional requirements](requirements/non-functional-requirements.md)  
 
-While the former explains the desired functionalities of the application, describing possible user interactions, the former
+While the former explains the desired functionalities of the application, describing possible user interactions, the latter
 represents a set of technical guidelines the system has to adhere to.
 
 ## Context
@@ -69,10 +69,10 @@ Based on the output of the Event Storming, we defined the following capabilities
     <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/order-capability.md">Order Capability<br>
         <img width=400 src="domain/resources/hey-blue-order-capability.drawio.svg"></a>
         <p>The order capability describes the service landscape enabling Civilians or Charities to redeem their points.</p>
-    <td style="table-layout: fixed; width: 1000px" align="center">
-        <a href="domain/connection-capability.md">Connection Capability<br>
-        <img width=400 src="domain/resources/hey-blue-connection.drawio.svg"></a>
-        <p>TODO: THIS IS JUST A DUMMY TO FILL STUFF UP</p>
+    </td>
+    <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/user-capability.md">User Capability<br>
+        <img width=400 src="domain/resources/hey-blue-user.drawio.svg"></a>
+        <p>This capability is responsible for maintaining user sessions, storing user data, registering new users and keeping track of connections between officers and civilians.</p>
     </td>
 </tr>
 
@@ -99,7 +99,7 @@ This summary provides an overview of the ADRs we refer to in the appropriate sec
 - [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
 - [ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
 - [ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
-
+- [ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
 
 
 <!--               NOTES                >
