@@ -83,18 +83,13 @@ For all of the above, if not stated otherwise in the diagram at hand, the symbol
 <img width="800" src="domain/resources/hey-blue-legend.drawio.svg">
 </p>
 
-## Service Architecture
+## System Architecture
 For the reasons described in [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md), we opted for Microsoft Azure as an examplary public hyperscaler to host the Hey, Blue! application. The following drawing unveils how the cloud architecture might look like on this platform. We took care to separate out internal (i.e. components hosted on Azure and controlled by Hey, Blue!) and external/peripheral systems and what security mechanisms protect the system.
 Note that the business backend on the left side is a possible extension to enable business to upload or sync offerings directly via an API rather than through the Hey, Blue! portal.
 
 <p align="center">
 <img width="800" src="azure/resources/archi-overview-perihery-ebill-eu-periphery.drawio.png">
 </p>
-
-## System Architecture
-TODO: Add Azure Cloud Architecture with ADR why Azure und ADRs for decisions.
-
-## Service Architecture
 
 ## Architecture Decision Records (ADR) Overview
 This summary provides an overview of the ADRs we refer to in the appropriate sections above. An ADR includes the context, i.e. the problem statement, a solution space, a decision, rationale and the decisions consequences.
