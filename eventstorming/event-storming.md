@@ -10,7 +10,7 @@ This was our approach:
 - Those Actor-Command-Event groupings would be combined to meaningful Aggregates (large yellow stickers), which are logical entities making up the domain model.
 - We identified hot spots (dark pink stickers) or open questions and resolved those during discussions.
 - External systems (light pink stickers) have been added.
-- We regrouped all the aggregates into logical system capabilities (green stickers). For each capabilitiy (e.g. "Connection", that is all the components involved in a civilian and an officer performing a digital handshake, a connection) a microservice landscape has been developed (see [Domain capabilities](#domain-capabilities)).
+- We regrouped all the aggregates into logical system capabilities (green stickers). For each capabilitiy (e.g. "Connection", that is all the components involved in a civilian and an officer performing a digital handshake, a connection) a microservice landscape has been developed.
 
 The following picture shows the final state of the Event Storming session after re-grouping Aggregates and extracting capabilities. The distilled Aggregates emerge prominently in the final architecture representing the commonly developed terminology and understanding of the domain.
 <p align="center">
