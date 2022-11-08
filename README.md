@@ -88,7 +88,7 @@ For the reasons described in [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hypers
 Note that the business backend on the left side is a possible extension to enable business to upload or sync offerings directly via an API rather than through the Hey, Blue! portal.
 
 <p align="center">
-<img width="800" src="azure/resources/archi-overview-perihery-ebill-eu-periphery.drawio.svg">
+<img width="800" src="azure/resources/archi-overview-perihery-ebill-eu-periphery.drawio.png">
 </p>
 
 ## System Architecture
