@@ -1,7 +1,7 @@
 # 2022-fall-architectural-katas
 
 <p align="center">
-<img width="600" src="domain/resources/header.png">
+<img width="600" src="domain/resources/hey_blue_header.png">
 </p>
 
 The O'Reillys 2022 Fall Architectural Katas. 🤓
