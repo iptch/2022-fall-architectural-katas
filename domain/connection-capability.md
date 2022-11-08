@@ -26,7 +26,7 @@ The following diagram describes the microservice architecture for this capabilit
 - Us being used by the connection service to make sure officers and users are nearby when a connection is being established.
 - Since we use a Kafka cluster anyway, spatial data can be streamed and stored within Kafka. This is espetially handy since we have no intention of storing this spatial data long-term in which case Kafka might not be the best choice.
 
-### PConnection
+### Connection
 - This service stores the actual connections. It is being triggered by user interaction through the BFF, checks up on user data, reconciles with the proximity matching and triggers the appropriate notifications for the connection establishment workflow.
 
 ### Social Media
