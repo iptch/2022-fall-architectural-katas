@@ -1,17 +1,25 @@
 # 2022-fall-architectural-katas
-Public repository to upload deliverables for O'Reillys 2022 Fall Architectural Katas
+
+<p align="center">
+<img width="600" src="domain/resources/header.png">
+</p>
+
+The O'Reillys 2022 Fall Architectural Katas. 🤓
 
 ## Team IPT
-Team IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We all are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) in Zurich, Switzerland.
+Our IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) 🚀 in Zurich, Switzerland.
 
-## Requirements
-The following overview exhibits all actors participating in the system with their main intentions and capabilities.
-More specifics can be found in the functional requirements section below.
+## Actors Overview
+The following overview exhibits all actors participating in the **Hey, Blue!** ecosystem with their main intentions and capabilities.
+More specifics can be found in the functional requirements section below as well as the [Context](#context) section.
 
 <p align="center">
 <img width="800" src="requirements/resources/hey-blue-actors-overview.drawio.svg">
 </p>
+For a legend refer to the section [Domain Design](#domain-design).
 
+
+## Requirements
 We grouped the requirements for the **Hey, Blue!** application into the following two sections.  
 - [Functional requirements](requirements/functional-requirements.md)
 - [Non-functional requirements](requirements/non-functional-requirements.md)  
