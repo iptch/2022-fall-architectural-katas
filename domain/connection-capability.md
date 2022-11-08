@@ -42,8 +42,10 @@ The following diagram describes the microservice architecture for this capabilit
 - Notifications are being distributed over an asynchronous eventing system like Kafka or Azure Event Hub.
 
 ## Synchronous vs Asynchronous Calls
-Notifications and the awarding of points can be asynchronous to decouple the system and handle load spikes gracefully. Some operations like the lookup of an officer or the connection service querying the proximity matcher should be synchronous to receive an instantaneous result which blocks the current flow of interactions.
+Notifications and the awarding of points can be asynchronous to decouple the system and handle load spikes gracefully (see [ADR08 Event-Driven Design](../ADRs/08-event-driven-design.md)). Some operations like the lookup of an officer or the connection service querying the proximity matcher should be synchronous to receive an instantaneous result which blocks the current flow of interactions.
 
 ## Related ADRs
-- [BFF](../ADRs/02-bff.md)
+- [ADR01 Microservice Architecture](../ADRs/01-microservice-architecture.md)
+- [ADR02 Backend-for-Frontend Pattern](../ADRs/02-bff.md)
+- [ADR08 Event-Driven Design](../ADRs/08-event-driven-design.md)
 
