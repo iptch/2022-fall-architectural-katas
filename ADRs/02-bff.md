@@ -1,2 +1,20 @@
 # ADR02 Backend-for-Frontend Pattern
-TODO
+## Title
+Use the Backend-for-Frontend pattern
+
+## Status
+Proposed
+
+## Context
+**Hey, Blue!** system is composed of several Microservices that communicate synchronously via REST or asynchronously via Message Queues. The system has to serve different Users, which are interacting in different ways and through several interfaces. Meanwhile, the budget of **Hey, Blue!** is limited, so it is important to implement a solution that does not come with high up-front costs or development and maintenance time.
+
+The different frontends it has to serve are: Android application, iOS application, Web application, public API clients (future). They all require different data in different formats. 
+
+## Decision
+We will use the Backend-for-Frontend (BFF) Pattern and have a dedicated backend for each frontend.
+
+## Consequences
+- Frontend applications will not call Microservices directly. Only BFF will call Microservices.
+- Frontend developers are responsible for their own BFF. BFF can be exactly tailored to the needs of the frontend application. 
+- Uneven load from different frontends can be scaled independently.
+- BFFs can be light-weight which makes development, deployment and maintenance easy. This aligns with our [non-functional requirement](../requirements/non-functional-requirements.md) *Feasability*.
