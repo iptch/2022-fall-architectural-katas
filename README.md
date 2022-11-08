@@ -71,8 +71,8 @@ Based on the output of the Event Storming, we defined the following capabilities
         <p>The order capability describes the service landscape enabling Civilians or Charities to redeem their points.</p>
     </td>
     <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/user-capability.md">User Capability<br>
-        <img width=400 src="TODO: Draw Diagram"></a>
-        <p>TODO: Give description</p>
+        <img width=400 src="domain/resources/hey-blue-user.drawio.svg"></a>
+        <p>This capability is responsible for maintaining user sessions, storing user data, registering new users and keeping track of connections between officers and civilians.</p>
     </td>
 </tr>
 
