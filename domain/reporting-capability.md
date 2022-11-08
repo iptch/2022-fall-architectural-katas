@@ -11,7 +11,7 @@ media companies.
 ### Reporting
 - Provides API to generate various reports
 - Distributes reports to Media Companies
-- Only service with read-only-access to its database. See [Read Replica Pattern](../ADRs/05-read-replica-pattern.md)
+- Only service with read-only-access to its database. See [ADR05 Read Replica Pattern](../ADRs/05-read-replica-pattern.md)
 
 ## Infrastructure
 
@@ -25,6 +25,7 @@ if the reports require real-time data, since CDC is more complex and costly to s
 - Contains all relevant data for reports from other microservices.
 
 ## Related ADRs
-- [BFF](../ADRs/02-bff.md)
-- [Read Replica Pattern](../ADRs/05-read-replica-pattern.md)
+- [ADR01 Microservice Architecture](../ADRs/01-microservice-architecture.md)
+- [ADR02 Backend-for-Frontend Pattern](../ADRs/02-bff.md)
+- [ADR05 Read Replica Pattern](../ADRs/05-read-replica-pattern.md)
 
