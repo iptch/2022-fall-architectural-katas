@@ -49,7 +49,7 @@ We tackle this challenge by employing [Domain Driven Design](https://en.wikipedi
 involved stakeholders, that is, domain experts, managers and the development team, of the domain at hand. 
 Read more details about our approach [here](eventstorming/event-storming.md).
 
-The following picture shows the final state of the Event Storming session.
+The following picture shows the final state of the Event Storming session. Note the overarching capabilities (green stickers) which we distilled out of the domain landscape which then became the foundational [domain capabilities](#domain-capabilities) for our microservice architecture. 
 <p align="center">
 <img width="800" src="eventstorming/resources/event-storming-final-panel.png">
 </p>
