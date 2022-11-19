@@ -4,10 +4,10 @@
 <img width="600" src="domain/resources/hey_blue_header.png">
 </p>
 
-The O'Reillys 2022 Fall Architectural Katas. 🤓
+This work represents our contribution to the Fall 2022 Architectural Katas hosted by [O'Reilly](https://learning.oreilly.com/home/). We seek to develop a software architecture for the [**Hey, Blue!**](https://www.verdiecoschool.org/heyblue) initiative. It's mission is establish connections among police officers and community members who sharing a common purpose. Hey, Blue! has been brought to live by [John Verdi](https://www.verdiecoschool.org/ourteam), a  retired law enforcement officer from NYC and 9/11 first responder.
 
-## Team IPT
-Our IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) 🚀 in Zurich, Switzerland.
+## Who we are
+Our team IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) 🚀 in Zurich, Switzerland. Our goal is to make technology valuable. Thus, we put our ❤️ into *IT*.
 
 ## Actors Overview
 The following overview exhibits all actors participating in the **Hey, Blue!** ecosystem with their main intentions and capabilities.
