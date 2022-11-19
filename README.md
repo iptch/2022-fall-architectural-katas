@@ -1,13 +1,58 @@
 # 2022-fall-architectural-katas
 
 <p align="center">
-<img width="600" src="domain/resources/hey_blue_header.png">
+<img width="700" src="domain/resources/hey_blue_banner.png">
 </p>
 
 This work represents our contribution to the Fall 2022 Architectural Katas hosted by [O'Reilly](https://learning.oreilly.com/home/). We seek to develop a software architecture for the [**Hey, Blue!**](https://www.verdiecoschool.org/heyblue) initiative. It's mission is establish connections among police officers and community members who sharing a common purpose. Hey, Blue! has been brought to live by [John Verdi](https://www.verdiecoschool.org/ourteam), a  retired law enforcement officer from NYC and 9/11 first responder.
 
+## Content
+<center>
+<table border="0">
+
+ <tr style="vertical-align:top">
+    <td>
+
+**[1. Wo we are](#who-we-are)**
+
+**[2. Actors Overview](#actors-overview)**
+
+**[3. Requirements](#requirements)**
+* [3.1. Functional requirements](requirements/functional-requirements.md)
+* [3.2. Non-functional requirements](requirements/non-functional-requirements.md)
+
+**[4. Context](#context)**
+
+**[5. Domain Design](#domain-design)**
+* [5.1. Event Storming Process](#event-storming-process)
+* [5.2. Domain capabilities](#domain-capabilities)
+    * [5.2.1 Connection Capability](domain/connection-capability.md)
+    * [5.2.2 Reporting Capability](domain/reporting-capability.md)
+    * [5.2.3 Order Capability](domain/order-capability.md)
+    * [5.2.4 User Capability](domain/user-capability.md)
+* [5.3. Legend](#legend)
+    </td>
+    <td>
+**[6. System Architecture](#system-architecture)**
+
+**[7. Architecture Decision Records (ADR)](#architecture-decision-records-adr)**
+* [7.1. ADR01 Microservice Architecture](adrs/01-microservice-architecture.md)
+* [7.1. ADR02 Backend-for-Frontend Pattern](adrs/02-bff.md)
+* [7.1. ADR03 Points Redemption Framework](adrs/03-redeem-points.md)
+* [7.1. ADR04 Dispatcher Architecture](adrs/04-dispatcher-architecture.md)
+* [7.1. ADR05 Read Replica Pattern](adrs/05-read-replica-pattern.md)
+* [7.1. ADR06 GDPR Compliance](adrs/06-GDPR-compliance.md)
+* [7.1. ADR07 Azure as a Hyperscaler](adrs/07-azure-hyperscaler.md)
+* [7.1. ADR08 Event-Driven Design](adrs/08-event-driven-design.md)
+
+**[8. Acknowledgements](#acknowledgements)**
+    </td>
+ </tr>
+</table>
+</center>
+
 ## Who we are
-Our team IPT consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) 🚀 in Zurich, Switzerland. Our goal is to make technology valuable. Thus, we put our ❤️ into *IT*.
+Our team *IPT* consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) 🚀 in Zurich, Switzerland. Our goal is to make technology valuable. Thus, we put our ❤️ into *IT*.
 
 ## Actors Overview
 The following overview exhibits all actors participating in the **Hey, Blue!** ecosystem with their main intentions and capabilities.
@@ -82,6 +127,7 @@ Based on the output of the Event Storming, we defined the following capabilities
 
 </table>
 
+### Legend
 For all of the above, if not stated otherwise in the diagram at hand, the symbols reflect the meaning as described in the following legend.
 <p align="center">
 <img width="800" src="domain/resources/hey-blue-legend.drawio.svg">
@@ -95,7 +141,7 @@ Note that the business backend on the left side is a possible extension to enabl
 <img width="800" src="azure/resources/archi-overview-perihery-azure-architecture.drawio.png">
 </p>
 
-## Architecture Decision Records (ADR) Overview
+## Architecture Decision Records (ADR)
 This summary provides an overview of the ADRs we refer to in the appropriate sections above. An ADR includes the context, i.e. the problem statement, a solution space, a decision, rationale and the decisions consequences.
 
 - [ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md)
@@ -106,6 +152,11 @@ This summary provides an overview of the ADRs we refer to in the appropriate sec
 - [ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
 - [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md)
 - [ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)
+
+## Acknowledgements
+We would like to thank the team behind the O'Reilly Architectural Katas and the judges for their effort in making this instructive and fun event possible. Next, we would like to thank the team of Hey, Blue! for presenting such an interesting challenge with real-world usage and positive impact for society. Finally, we would like to thank our employer, Innovation Process Technology, for giving us the opportunity to participate in this challenge and working on our architectural skills. It's been one hell of a ride. 
+
+
 
 
 <!--               NOTES                >
