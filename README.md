@@ -154,9 +154,11 @@ This summary provides an overview of the ADRs we refer to in the appropriate sec
 - [ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)
 
 ## Acknowledgements
-We would like to thank the team behind the O'Reilly Architectural Katas and the judges for their effort in making this instructive and fun event possible. Next, we would like to thank the team of Hey, Blue! for presenting such an interesting challenge with real-world usage and positive impact for society. Finally, we would like to thank our employer, Innovation Process Technology, for giving us the opportunity to participate in this challenge and working on our architectural skills. It's been one hell of a ride. 
+We would like to thank the team behind the O'Reilly Architectural Katas and the judges for their effort in making this instructive and fun event possible. Next, we would like to thank the team of Hey, Blue! for presenting such an interesting challenge with real-world usage and positive impact for society. Finally, we would like to thank our employer, Innovation Process Technology, for giving us the opportunity to participate in this challenge and working on our architectural skills. It's been one hell of a ride.
 
-
+<p align="center">
+<img width="600" src="context/resources/oreilly-archi-kata-fall-2022-team-ipt.svg">
+</p>
 
 
 <!--               NOTES                >
