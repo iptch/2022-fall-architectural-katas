@@ -34,6 +34,7 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
     </td>
     <td>
 **[6. System Architecture](#system-architecture)**
+* [6.1. System Architecture Document](azure/resources/cloud-architecture.md)
 
 **[7. Architecture Decision Records (ADR)](#architecture-decision-records-adr)**
 * [7.1. ADR01 Microservice Architecture](adrs/01-microservice-architecture.md)
@@ -134,11 +135,19 @@ For all of the above, if not stated otherwise in the diagram at hand, the symbol
 </p>
 
 ## System Architecture
-For the reasons described in [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md), we opted for Microsoft Azure as an examplary public hyperscaler to host the **Hey, Blue!** application. The following drawing unveils how the cloud architecture might look like on this platform. We took care to separate out internal (i.e. components hosted on Azure and controlled by **Hey, Blue!**) and external/peripheral systems and what security mechanisms protect the system.
-Note that the business backend on the left side is a possible extension to enable business to upload or sync offerings directly via an API rather than through the **Hey, Blue!** portal.
+We used a [domain-driven approach](#domain-design) to define our [service landscape](#domain-capabilities) for the 
+**Hey, Blue!** ecosystem. With those capabilities at hand, we finally propose a cloud-native software solution that can 
+cope with the [requirements](#requirements) and is feasible to implement for an ambitious startup corporation. 
+The design embraces [DevOps](https://en.wikipedia.org/wiki/DevOps), [GitOps]() and 
+[Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_security_model) principles as first 
+class citizens. As an exemplary cloud vendor we chose [Microsoft Azure](https://azure.microsoft.com/en-us/), however the solution
+can easily be ported to other cloud platforms as described in [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md).
+
+Please refer the **[system architecture document](azure/resources/cloud-architecture.md)** for further explanations.
+
 
 <p align="center">
-<img width="800" src="azure/resources/archi-overview-perihery-azure-architecture.drawio.png">
+<img width="1000" src="azure/resources/cloud_architecture-azure-overview-simple.drawio.png">
 </p>
 
 ## Architecture Decision Records (ADR)
