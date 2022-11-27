@@ -108,11 +108,11 @@ Based on the output of the Event Storming, we defined the following capabilities
     <td style="table-layout: fixed; width: 1000px" align="center">
         <a href="domain/connection-capability.md">Connection Capability<br>
         <img width=400 src="domain/resources/hey-blue-connection.drawio.svg"></a>
-        <p>This is the heart piece of the **Hey, Blue!** ecosystem enabling civilians and officers to connect. This includes the possibility for officers to enroll in the look-up for civilians such that civilians can find officers online, the actual virutal handshake itself along with the respective notifications, rewards and awarding of points. Handshakes can only happen in proximity and connections might be shared over social media.</p>
+        <p>This is the heart piece of the Hey, Blue! ecosystem enabling civilians and officers to connect. This includes the possibility for officers to enroll in the look-up for civilians such that civilians can find officers online, the actual virutal handshake itself along with the respective notifications, rewards and awarding of points. Handshakes can only happen in proximity and connections might be shared over social media.</p>
     </td>
     <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/reporting-capability.md">Reporting Capability<br>
         <img width=400 src="domain/resources/hey-blue-report.drawio.svg"></a>
-        <p>The reporting capability covers the service landscape enabling **Hey, Blue!** staff to generate reports and share them with media companies.</p>
+        <p>The reporting capability covers the service landscape enabling Hey, Blue! staff to generate reports and share them with media companies.</p>
     </td>
 </tr>
 </table>
