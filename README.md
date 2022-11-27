@@ -93,7 +93,8 @@ We tackle this challenge by employing [Domain Driven Design](https://en.wikipedi
 ### Event-Storming process
 [Event Storming](https://www.eventstorming.com/) is a technique to develop a common understanding of all 
 involved stakeholders, that is, domain experts, managers and the development team, of the domain at hand. 
-Read more details about our approach [here](eventstorming/event-storming.md).
+
+Learn more about our approach in the **[Event Storming Subpage](eventstorming/event-storming.md)**.
 
 The following picture shows the final state of the Event Storming session. Note the overarching capabilities (green stickers) which we distilled out of the domain landscape which then became the foundational [domain capabilities](#domain-capabilities) for our microservice architecture. 
 <p align="center">
