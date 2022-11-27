@@ -97,11 +97,17 @@ Read more details about our approach [here](eventstorming/event-storming.md).
 
 The following picture shows the final state of the Event Storming session. Note the overarching capabilities (green stickers) which we distilled out of the domain landscape which then became the foundational [domain capabilities](#domain-capabilities) for our microservice architecture. 
 <p align="center">
-<img width="800" src="eventstorming/resources/event-storming-final-panel.png">
+<img width="1000" src="eventstorming/resources/event-storming-final-panel.png">
 </p>
 
 ### Domain capabilities
 Based on the output of the Event Storming, we defined the following capabilities for each of which we developed a microservice architecture.
+
+#### Capabilities Overview
+The following diagram gives a high-level overview of how the capabilities interact with each other. Further details to each capability is found next.
+<p align="center">
+<img width="800" src="domain/resources/hey-blue-overview.drawio.svg">
+</p>
 
 <table>
 <tr>
