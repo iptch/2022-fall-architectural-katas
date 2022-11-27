@@ -115,6 +115,8 @@ Based on the output of the Event Storming, we defined the following capabilities
         <p>The reporting capability covers the service landscape enabling **Hey, Blue!** staff to generate reports and share them with media companies.</p>
     </td>
 </tr>
+</table>
+<table>
 <tr>
     <td style="table-layout: fixed; width: 1000px" align="center"> <a href="domain/order-capability.md">Order Capability<br>
         <img width=400 src="domain/resources/hey-blue-order-capability.drawio.svg"></a>
