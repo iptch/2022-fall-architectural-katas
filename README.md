@@ -120,7 +120,7 @@ Based on the output of the Event Storming, we defined the following capabilities
 #### Capabilities Overview
 The following diagram gives a high-level overview of how the capabilities interact with each other. Further details to each capability is found next.
 <p align="center">
-<img width="800" src="domain/resources/hey-blue-overview.drawio.svg">
+<img width="800" src="domain/resources/hey-blue-capabilities.drawio.svg">
 </p>
 
 <table>
