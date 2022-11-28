@@ -1,4 +1,11 @@
-# 2022-fall-architectural-katas
+# Architectural Katas - Fall 2022
+
+[Max Riedel](https://ipt.ch/en/team/mitarbeiter/max-riedel) [[LinkedIn]](https://www.linkedin.com/in/maxriedel/)
+
+[Matthäus Heer](https://ipt.ch/en/team/mitarbeiter/matthaus-heer) [[LinkedIn]](https://www.linkedin.com/in/matth%C3%A4us-heer-8b0685126/)
+
+[Nicolas Mesot](https://ipt.ch/en/team/mitarbeiter/nicolas-mesot) [[LinkedIn]](https://www.linkedin.com/in/nicolas-mesot-medarde/)
+
 
 <p align="center">
 <img width="700" src="domain/resources/hey_blue_banner.png">
