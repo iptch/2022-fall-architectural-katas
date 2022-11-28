@@ -1,4 +1,4 @@
-# ADR05 Read Replica Pattern
+# 2022-11-06 ADR06 Read Replica Pattern
 
 ## Title
 Use of Read Replica Pattern

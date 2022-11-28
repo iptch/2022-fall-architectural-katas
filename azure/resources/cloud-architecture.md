@@ -2,7 +2,7 @@
 
 This in-depth design document elaborates on our proposal for the system design shown below, 
 paying special attention to the decision-making process while discussing trade-offs concerning complexity, 
-feasibility and usefulness of different approaches. For the reasons described in [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md), we opted for Microsoft Azure
+feasibility and usefulness of different approaches. For the reasons described in [ADR07 Azure as a Hyperscaler](../../ADRs/2022-11-08_07-azure-hyperscaler.md), we opted for Microsoft Azure
 as an exemplary public cloud vendor to host the **Hey, Blue!** application and the required infrastructure. This document acts as a decision log for 
 any concerns regarding the system architecture solution proposed in the [System Architecture Overview](#0-system-architecture-overview).
 
@@ -24,16 +24,33 @@ any concerns regarding the system architecture solution proposed in the [System 
   * [2.2.2 Messaging System](#222-messaging-system)
 
 **[3. Components](#3-components)**
-* [3.1. Client-side Applications](#31-client-side-applications)
-* [3.2. Web Application Firewall](#32-web-application-firewall)
-* [3.3. API Gateway & Management](#33-api-gateway--management)
-* [3.4. Backend Services Orchestration](#34-backend-services-orchestration)
-* [3.5. Streaming Service](#35-streaming-service)
-* [3.6. Frontend Hosting](#36-frontend-hosting)
-* [3.7. Analytics](#37-analytics)
-* [3.8. Administration Cockpit (Portal, Loggin, Monitoring, IAM)](#38-administration-cockpit-portal-logging-monitoring-iam)
-* [3.9. DevOps Tooling (GitHub)](#39-devops-tooling-github)
-* [3.10. GitOps Tooling (Terraform)](#310-gitops-tooling-terraform)
+- [System Architecture](#system-architecture)
+  - [Table of Contents](#table-of-contents)
+  - [0. System Architecture Overview](#0-system-architecture-overview)
+  - [1. Assumptions](#1-assumptions)
+    - [1.1 No Restrictions on Public Cloud](#11-no-restrictions-on-public-cloud)
+    - [1.2 Available Resources](#12-available-resources)
+  - [2. Requirements and Reactions](#2-requirements-and-reactions)
+    - [2.1. General Requirements to System Architecture](#21-general-requirements-to-system-architecture)
+      - [2.1.1 Rapid development for DevOps teams](#211-rapid-development-for-devops-teams)
+      - [2.1.2 Security](#212-security)
+        - [2.1.2.1 The Zero-Trust Philosophy](#2121-the-zero-trust-philosophy)
+      - [2.1.3 Quality and Staging](#213-quality-and-staging)
+      - [2.1.4 Observability](#214-observability)
+    - [2.2. Requirements due to Domain-driven Design Solution](#22-requirements-due-to-domain-driven-design-solution)
+      - [2.2.1 Container Orchestration](#221-container-orchestration)
+      - [2.2.2 Messaging System](#222-messaging-system)
+  - [3. Components](#3-components)
+    - [3.1. Client-side Applications](#31-client-side-applications)
+    - [3.2. Web Application Firewall](#32-web-application-firewall)
+    - [3.3. API Gateway & Management](#33-api-gateway--management)
+    - [3.4. Backend Services Orchestration](#34-backend-services-orchestration)
+    - [3.5. Streaming Service](#35-streaming-service)
+    - [3.6. Frontend Hosting](#36-frontend-hosting)
+    - [3.7. Analytics](#37-analytics)
+    - [3.8. Administration Cockpit (Portal, Logging, Monitoring, IAM)](#38-administration-cockpit-portal-logging-monitoring-iam)
+    - [3.9. DevOps Tooling (GitHub)](#39-devops-tooling-github)
+    - [3.10. GitOps Tooling (Terraform)](#310-gitops-tooling-terraform)
 
 
 ## 0. System Architecture Overview

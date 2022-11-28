@@ -1,4 +1,4 @@
-# ADR04 Dispatcher Architecure
+# 2022-10-31 ADR04 Dispatcher Architecture
 
 ## Title
 Design of the service responsible for dispatching orders to participating businesses

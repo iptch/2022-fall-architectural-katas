@@ -26,11 +26,10 @@ of connections between officers and civilians.
 
 
 ## Related ADRs
-- [ADR01 Microservice Architecture](../ADRs/01-microservice-architecture.md)
-- [ADR02 Backend-for-Frontend Pattern](../ADRs/02-bff.md)
-- [ADR03 Points Redemption Framework](../ADRs/03-redeem-points.md)
-- [ADR06 GDPR Compliance](../ADRs/06-GDPR-compliance.md)
-
+- [ADR01 Microservice Architecture](../ADRs/2022-10-31_01-microservice-architecture.md)
+- [ADR03 Points Redemption Framework](../ADRs/2022-10-31_03-redeem-points.md)
+- [ADR05 Backend-for-Frontend Pattern](../ADRs/2022-11-01_05-bff.md)
+- [ADR08 GDPR Compliance](../ADRs/2022-11-08_08-GDPR-compliance.md)
 
 ## Related Views
 - [Connection Capability](connection-capability.md)
