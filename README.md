@@ -35,14 +35,14 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 * [4.1. System Architecture Document](azure/resources/cloud-architecture.md)
 
 **[5. Architecture Decision Records (ADR)](#architecture-decision-records-adr)**
-* [5.1. ADR01 Microservice Architecture](adrs/01-microservice-architecture.md)
-* [5.1. ADR02 Backend-for-Frontend Pattern](adrs/02-bff.md)
-* [5.1. ADR03 Points Redemption Framework](adrs/03-redeem-points.md)
-* [5.1. ADR04 Dispatcher Architecture](adrs/04-dispatcher-architecture.md)
-* [5.1. ADR05 Read Replica Pattern](adrs/05-read-replica-pattern.md)
-* [5.1. ADR06 GDPR Compliance](adrs/06-GDPR-compliance.md)
-* [5.1. ADR07 Azure as a Hyperscaler](adrs/07-azure-hyperscaler.md)
-* [5.1. ADR08 Event-Driven Design](adrs/08-event-driven-design.md)
+* [5.1. ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md)
+* [5.1. ADR02 Backend-for-Frontend Pattern](ADRs/02-bff.md)
+* [5.1. ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
+* [5.1. ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
+* [5.1. ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
+* [5.1. ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
+* [5.1. ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md)
+* [5.1. ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)
 
 **[6. Acknowledgements](#acknowledgements)**
     </td>
@@ -102,7 +102,7 @@ Learn more about our approach in the **[Event Storming Subpage](eventstorming/ev
 
 The following picture shows the final state of the Event Storming session. Note the overarching capabilities (green stickers) which we distilled out of the domain landscape which then became the foundational [domain capabilities](#domain-capabilities) for our microservice architecture. 
 <p align="center">
-<img width="1000" src="eventstorming/resources/event-storming-final-panel.png">
+<img width="800" src="eventstorming/resources/event-storming-final-panel.png">
 </p>
 
 ### Architecture Style
@@ -115,12 +115,6 @@ Though costs may be higher, we decided to go for a microservice architecture sty
 
 ### Domain capabilities
 Based on the output of the Event Storming, we defined the following capabilities for each of which we developed a microservice architecture.
-
-#### Capabilities Overview
-The following diagram gives a high-level overview of how the capabilities interact with each other. Further details to each capability is found next.
-<p align="center">
-<img width="800" src="domain/resources/hey-blue-overview.drawio.svg">
-</p>
 
 <table>
 <tr>
