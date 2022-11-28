@@ -1,4 +1,4 @@
-# ADR06 GDPR Compliance
+# 2022-11-08 ADR08 GDPR Compliance
 
 ## Title
 GDPR compliance for all user data

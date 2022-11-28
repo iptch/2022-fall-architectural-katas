@@ -36,14 +36,14 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 * [4.1. System Architecture Document](azure/resources/cloud-architecture.md)
 
 **[5. Architecture Decision Records (ADR)](#architecture-decision-records-adr)**
-* [ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md)
-* [ADR02 Backend-for-Frontend Pattern](ADRs/02-bff.md)
-* [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
-* [ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
-* [ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
-* [ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
-* [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md)
-* [ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)
+* [2022-10-31 ADR01 Microservice Architecture](ADRs/2022-10-31_01-microservice-architecture.md)
+* [2022-10-31 ADR02 Event-Driven Design](ADRs/2022-10-31_02-event-driven-design.md)
+* [2022-10-31 ADR03 Points Redemption Framework](ADRs/2022-10-31_03-redeem-points.md)
+* [2022-10-31 ADR04 Dispatcher Architecture](ADRs/2022-10-31_04-dispatcher-architecture.md)
+* [2022-11-01 ADR05 Backend-for-Frontend Pattern](ADRs/2022-11-01_05-bff.md)
+* [2022-11-06 ADR06 Read Replica Pattern](ADRs/2022-11-06_06-read-replica-pattern.md)
+* [2022-11-08 ADR07 Azure as a Hyperscaler](ADRs/2022-11-08_07-azure-hyperscaler.md)
+* [2022-11-08 ADR08 GDPR Compliance](ADRs/2022-11-08_08-GDPR-compliance.md)
 
 **[6. Acknowledgements](#acknowledgements)**
     </td>
@@ -109,7 +109,7 @@ The following picture shows the final state of the Event Storming session. Note 
 ### Architecture Style
 We used the Architecture Styles Worksheet from Mark Richards [website](https://www.developertoarchitect.com/downloads/worksheets.html) to make an informed decision on the architecture style of **Hey, Blue!**. As shown in the matrix below and as stated in [System Characteristics](requirements/non-functional-requirements.md) we identified Feasability (cost), Evolvability and  Scalability as our main characteristics to base our decision on. 
 
-Though costs may be higher, we decided to go for a microservice architecture style with event-driven elements in it (see [ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md) and [ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)). With this we can best guarantee that **Hey, Blue!** can scale and adapt accordingly to the users needs, and is so best setup for success. Monolithic options, which usually are cheaper to develop, won't be able to hold up with the pace in which a social network can evolve.
+Though costs may be higher, we decided to go for a microservice architecture style with event-driven elements in it (see [ADR01 Microservice Architecture](ADRs/2022-10-31_01-microservice-architecture.md) and [ADR02 Event-Driven Design](ADRs/2022-10-31_02-event-driven-design.md)). With this we can best guarantee that **Hey, Blue!** can scale and adapt accordingly to the users needs, and is so best setup for success. Monolithic options, which usually are cheaper to develop, won't be able to hold up with the pace in which a social network can evolve.
 <p align="center">
 <img width="800" src="domain/resources/architecture-style-decision.png">
 </p>
@@ -163,7 +163,7 @@ cope with the [requirements](#requirements) and is feasible to implement for an 
 The design embraces [DevOps](https://en.wikipedia.org/wiki/DevOps), [GitOps]() and 
 [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_security_model) principles as first 
 class citizens. As an exemplary cloud vendor we chose [Microsoft Azure](https://azure.microsoft.com/en-us/), however the solution
-can easily be ported to other cloud platforms as described in [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md).
+can easily be ported to other cloud platforms as described in [ADR07 Azure as a Hyperscaler](ADRs/2022-11-08_07-azure-hyperscaler.md).
 
 Please refer the **[system architecture document](azure/resources/cloud-architecture.md)** for further explanations.
 
@@ -175,14 +175,14 @@ Please refer the **[system architecture document](azure/resources/cloud-architec
 ## Architecture Decision Records (ADR)
 This summary provides an overview of the ADRs we refer to in the appropriate sections above. An ADR includes the context, i.e. the problem statement, a solution space, a decision, rationale and the decisions consequences.
 
-- [ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md)
-- [ADR02 Backend-for-Frontend Pattern](ADRs/02-bff.md)
-- [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
-- [ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
-- [ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
-- [ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
-- [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md)
-- [ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)
+- [2022-10-31 ADR01 Microservice Architecture](ADRs/2022-10-31_01-microservice-architecture.md)
+- [2022-10-31 ADR02 Event-Driven Design](ADRs/2022-10-31_02-event-driven-design.md)
+- [2022-10-31 ADR03 Points Redemption Framework](ADRs/2022-10-31_03-redeem-points.md)
+- [2022-10-31 ADR04 Dispatcher Architecture](ADRs/2022-10-31_04-dispatcher-architecture.md)
+- [2022-11-01 ADR05 Backend-for-Frontend Pattern](ADRs/2022-11-01_05-bff.md)
+- [2022-11-06 ADR06 Read Replica Pattern](ADRs/2022-11-06_06-read-replica-pattern.md)
+- [2022-11-08 ADR07 Azure as a Hyperscaler](ADRs/2022-11-08_07-azure-hyperscaler.md)
+- [2022-11-08 ADR08 GDPR Compliance](ADRs/2022-11-08_08-GDPR-compliance.md)
 
 ## Acknowledgements
 We would like to thank the team behind the O'Reilly Architectural Katas and the judges for their effort in making this instructive and fun event possible. Next, we would like to thank the team of Hey, Blue! for presenting such an interesting challenge with real-world usage and positive impact for society. Finally, we would like to thank our employer, Innovation Process Technology, for giving us the opportunity to participate in this challenge and working on our architectural skills. It's been one hell of a ride.

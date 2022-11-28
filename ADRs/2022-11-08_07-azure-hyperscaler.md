@@ -1,4 +1,4 @@
-# ADR07 Azure as a Hyperscaler
+# 2022-11-08 ADR07 Azure as a Hyperscaler
 
 ## Title
 Choosing a public cloud hyperscaler for the Hey, Blue! infrastructure
