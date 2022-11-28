@@ -1,12 +1,5 @@
 # Architectural Katas - Fall 2022
 
-[Max Riedel](https://ipt.ch/en/team/mitarbeiter/max-riedel) [[LinkedIn]](https://www.linkedin.com/in/maxriedel/)
-
-[Matthäus Heer](https://ipt.ch/en/team/mitarbeiter/matthaus-heer) [[LinkedIn]](https://www.linkedin.com/in/matth%C3%A4us-heer-8b0685126/)
-
-[Nicolas Mesot](https://ipt.ch/en/team/mitarbeiter/nicolas-mesot) [[LinkedIn]](https://www.linkedin.com/in/nicolas-mesot-medarde/)
-
-
 <p align="center">
 <img width="700" src="domain/resources/hey_blue_banner.png">
 </p>
@@ -59,7 +52,7 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 </center>
 
 ## Who we are
-Our team *IPT* consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) 🚀 in Zurich, Switzerland. Our goal is to make technology valuable. Thus, we put our ❤️ into *IT*.
+Our team *IPT* consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer) ([LinkedIn](https://www.linkedin.com/in/matth%C3%A4us-heer-8b0685126/)), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) ([LinkedIn](https://www.linkedin.com/in/nicolas-mesot-medarde/)) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel) ([LinkedIn](https://www.linkedin.com/in/maxriedel/)). We are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) 🚀 in Zurich, Switzerland. Our goal is to make technology valuable. Thus, we put our ❤️ into *IT*.
 
 
 ## Problem Background
