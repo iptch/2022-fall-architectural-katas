@@ -1,4 +1,4 @@
-# Non-functional requirements
+# System Characteristics
 The founder of **Hey, Blue!** did not state specific non-functional requirements for the **Hey, Blue!** system. However, in the Q&A sessions he gave some hints about characteristics the systems should have for **Hey, Blue!** to be successful. Besides some obvious requirements that all Apps should fulfill (Reliability, Security, etc.) we identified the following as important enough to be stated here.
 
 ## Easy of Use
@@ -12,3 +12,6 @@ The Vision of **Hey, Blue!** is that each Police Officer in the United States ac
 
 ## Ease of integration
 As **Hey, Blue!** is all about community and bringing people together, the participation of local businesses is crucial to its success. Therefore it must be as easy as possible to participate in the system. Even very small businesses without online shops need to be able to offer their goods or services in exchange for Points.
+
+## Evolvability 
+As user bases grow, social networks tend to see new unanticipated patterns of use emerge. That is why it is essential for social networks to respond to the needs of users in an agile manner. For the system architecture, this means that changes can be easily incorporated and tested. Since **Hey, Blue!** is in fact a kind of social network we identify *Evolvability* an important characteristic for its architecture.

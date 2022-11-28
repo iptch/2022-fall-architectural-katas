@@ -15,38 +15,36 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 
 **[1. Wo we are](#who-we-are)**
 
-**[2. Actors Overview](#actors-overview)**
+**[2. Problem Statement](#problem-background)**
+* [2.1. Hey, Blue! Vision](#hey-blue-vision)
+* [2.2. Requirements](#requirements)
+* [2.3. Actors Overview](#actors-overview)
 
-**[3. Requirements](#requirements)**
-* [3.1. Functional requirements](requirements/functional-requirements.md)
-* [3.2. Non-functional requirements](requirements/non-functional-requirements.md)
-
-**[4. Context](#context)**
-
-**[5. Domain Design](#domain-design)**
-* [5.1. Event Storming Process](#event-storming-process)
-* [5.2. Domain capabilities](#domain-capabilities)
-    * [5.2.1 Connection Capability](domain/connection-capability.md)
-    * [5.2.2 Reporting Capability](domain/reporting-capability.md)
-    * [5.2.3 Order Capability](domain/order-capability.md)
-    * [5.2.4 User Capability](domain/user-capability.md)
-* [5.3. Legend](#legend)
+**[3. Domain Design](#domain-design)**
+* [3.1. Event Storming Process](#event-storming-process)
+* [3.2. Architecture Style](#architecture-style)
+* [3.3. Domain capabilities](#domain-capabilities)
+    * [3.3.1 Connection Capability](domain/connection-capability.md)
+    * [3.3.2 Reporting Capability](domain/reporting-capability.md)
+    * [3.3.3 Order Capability](domain/order-capability.md)
+    * [3.3.4 User Capability](domain/user-capability.md)
+* [3.4. Legend](#legend)
     </td>
     <td>
-**[6. System Architecture](#system-architecture)**
-* [6.1. System Architecture Document](azure/resources/cloud-architecture.md)
+**[4. System Architecture](#system-architecture)**
+* [4.1. System Architecture Document](azure/resources/cloud-architecture.md)
 
-**[7. Architecture Decision Records (ADR)](#architecture-decision-records-adr)**
-* [7.1. ADR01 Microservice Architecture](adrs/01-microservice-architecture.md)
-* [7.1. ADR02 Backend-for-Frontend Pattern](adrs/02-bff.md)
-* [7.1. ADR03 Points Redemption Framework](adrs/03-redeem-points.md)
-* [7.1. ADR04 Dispatcher Architecture](adrs/04-dispatcher-architecture.md)
-* [7.1. ADR05 Read Replica Pattern](adrs/05-read-replica-pattern.md)
-* [7.1. ADR06 GDPR Compliance](adrs/06-GDPR-compliance.md)
-* [7.1. ADR07 Azure as a Hyperscaler](adrs/07-azure-hyperscaler.md)
-* [7.1. ADR08 Event-Driven Design](adrs/08-event-driven-design.md)
+**[5. Architecture Decision Records (ADR)](#architecture-decision-records-adr)**
+* [5.1. ADR01 Microservice Architecture](adrs/01-microservice-architecture.md)
+* [5.1. ADR02 Backend-for-Frontend Pattern](adrs/02-bff.md)
+* [5.1. ADR03 Points Redemption Framework](adrs/03-redeem-points.md)
+* [5.1. ADR04 Dispatcher Architecture](adrs/04-dispatcher-architecture.md)
+* [5.1. ADR05 Read Replica Pattern](adrs/05-read-replica-pattern.md)
+* [5.1. ADR06 GDPR Compliance](adrs/06-GDPR-compliance.md)
+* [5.1. ADR07 Azure as a Hyperscaler](adrs/07-azure-hyperscaler.md)
+* [5.1. ADR08 Event-Driven Design](adrs/08-event-driven-design.md)
 
-**[8. Acknowledgements](#acknowledgements)**
+**[6. Acknowledgements](#acknowledgements)**
     </td>
  </tr>
 </table>
@@ -55,9 +53,21 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 ## Who we are
 Our team *IPT* consists of [Matthäus Heer](https://ipt.ch/de/team/mitarbeiter/matthaus-heer), [Nicolas Mesot](https://ipt.ch/de/team/mitarbeiter/nicolas-mesot) and [Max Riedel](https://ipt.ch/de/team/mitarbeiter/max-riedel). We are IT Consultants with [Innovation Process Technology AG](https://ipt.ch) 🚀 in Zurich, Switzerland. Our goal is to make technology valuable. Thus, we put our ❤️ into *IT*.
 
-## Actors Overview
+
+## Problem Background
+
+### Hey, Blue! Vision
+During 9/11 [EcoSchool](https://www.verdiecoschool.org/) founder and 9/11 first responder John Verdi experienced the collaborative acts of heroism by first responders and civilians. That inspired him to start [**Hey, Blue!**](https://www.verdiecoschool.org/heyblue), an initiative to facilitate moments of meaningful connection between police officers and members of their community.
+
+**Hey, Blue!** is used to incentivize police officers and civilians to meet and share their positive connection with other community members. The initiatives target is to have police officers across the United States connect with 5 civilians each day, which would lead to 1.2 billion connections each year. Both the officer and the civilian are granted points for their positive connection. Officers can donate their points to charities. Civilians and charities can redeem their points in exchange for goods or discounts from participating local businesses.
+
+### Requirements
+We grouped the requirements for the **Hey, Blue!** application into the following two sections.  
+- [Functional requirements](requirements/functional-requirements.md)
+- [Non-functional requirements](requirements/non-functional-requirements.md) 
+### Actors Overview
 The following overview exhibits all actors participating in the **Hey, Blue!** ecosystem with their main intentions and capabilities.
-More specifics can be found in the functional requirements section below as well as the [Context](#context) section.
+More specifics can be found in the [Functional requirements](requirements/functional-requirements.md) section as well as the [Context](#context) section.
 
 <p align="center">
 <img width="800" src="context/resources/hey-blue-actors-overview.drawio.svg">
@@ -65,17 +75,11 @@ More specifics can be found in the functional requirements section below as well
 
 For a legend refer to the section [Domain Design](#domain-design).
 
-
-## Requirements
-We grouped the requirements for the **Hey, Blue!** application into the following two sections.  
-- [Functional requirements](requirements/functional-requirements.md)
-- [Non-functional requirements](requirements/non-functional-requirements.md)  
-
 While the former explains the desired functionalities of the application, describing possible user interactions, the latter
 represents a set of technical guidelines the system has to adhere to.
 
-## Context
-In the following we will describe what actors (can be a user, participant or system) might interact in what way with the **Hey, Blue!** system.
+### Context
+In the following, we will describe what actors (can be a user, participant or system) might interact in what way with the **Hey, Blue!** system.
 For that matter, the diagram displays the main capabilities or intentions a user or system has to its disposal. 
 
 The actors are being divided into internal, i.e. actors which are internal to the **Hey, Blue!** ecosystem and external actors,
@@ -99,6 +103,14 @@ Learn more about our approach in the **[Event Storming Subpage](eventstorming/ev
 The following picture shows the final state of the Event Storming session. Note the overarching capabilities (green stickers) which we distilled out of the domain landscape which then became the foundational [domain capabilities](#domain-capabilities) for our microservice architecture. 
 <p align="center">
 <img width="800" src="eventstorming/resources/event-storming-final-panel.png">
+</p>
+
+### Architecture Style
+We used the Architecture Styles Worksheet from Mark Richards [website](https://www.developertoarchitect.com/downloads/worksheets.html) to make an informed decision on the architecture style of **Hey, Blue!**. As shown in the matrix below and as stated in [System Characteristics](requirements/non-functional-requirements.md) we identified Feasability (cost), Evolvability and  Scalability as our main characteristics to base our decision on. 
+
+Though costs may be higher, we decided to go for a microservice architecture style with event-driven elements in it (see [ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md) and [ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)). With this we can best guarantee that **Hey, Blue!** can scale and adapt accordingly to the users needs, and is so best setup for success. Monolithic options, which usually are cheaper to develop, won't be able to hold up with the pace in which a social network can evolve.
+<p align="center">
+<img width="800" src="domain/resources/architecture-style-decision.png">
 </p>
 
 ### Domain capabilities
