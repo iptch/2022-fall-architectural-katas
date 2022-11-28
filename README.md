@@ -65,7 +65,7 @@ During 9/11 [EcoSchool](https://www.verdiecoschool.org/) founder and 9/11 first 
 ### Requirements
 We grouped the requirements for the **Hey, Blue!** application into the following two sections.  
 - [Functional requirements](requirements/functional-requirements.md)
-- [Non-functional requirements](requirements/non-functional-requirements.md) 
+- [System Characteristics](requirements/non-functional-requirements.md) 
 ### Actors Overview
 The following overview exhibits all actors participating in the **Hey, Blue!** ecosystem with their main intentions and capabilities.
 More specifics can be found in the [Functional requirements](requirements/functional-requirements.md) section as well as the [Context](#context) section.
