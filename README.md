@@ -153,7 +153,7 @@ The following diagram gives a high-level overview of how the capabilities intera
 ### Legend
 For all of the above, if not stated otherwise in the diagram at hand, the symbols reflect the meaning as described in the following legend.
 <p align="center">
-<img width="800" src="domain/resources/hey-blue-legend.drawio.svg">
+<img width="700" src="domain/resources/hey-blue-legend.drawio.svg">
 </p>
 
 ## System Architecture
