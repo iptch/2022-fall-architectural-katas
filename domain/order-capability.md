@@ -42,7 +42,7 @@ The following list describes main responsibilities of the different services in 
 - Updates order state when an order is dispatched or shipped
 
 ### Dispatcher
-- Microkernel Architecture with Plugins for communicating orders with Businesses (see [ADR04 Dispatcher Architecture](../ADRs/04-dispatcher-architecture.md)).
+- Microkernel Architecture with Plugins for communicating orders with Businesses (see [ADR04 Dispatcher Architecture](../ADRs/2022-10-31_04-dispatcher-architecture.md)).
 - Takes orders from Order services.
 - Sends order to Business.
 - Receives order confirmation, declines and shipment updates from Business.
