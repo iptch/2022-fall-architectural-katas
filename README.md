@@ -117,6 +117,12 @@ Though costs may be higher, we decided to go for a microservice architecture sty
 ### Domain capabilities
 Based on the output of the Event Storming, we defined the following capabilities for each of which we developed a microservice architecture.
 
+#### Capabilities Overview
+The following diagram gives a high-level overview of how the capabilities interact with each other. Further details to each capability is found next.
+<p align="center">
+<img width="800" src="domain/resources/hey-blue-overview.drawio.svg">
+</p>
+
 <table>
 <tr>
     <td style="table-layout: fixed; width: 1000px" align="center">
