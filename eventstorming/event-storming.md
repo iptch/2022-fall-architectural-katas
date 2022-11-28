@@ -1,4 +1,4 @@
-# Event Storming
+# Event Storming Detailed View
 
 [Event Storming](https://www.eventstorming.com/) is a technique to develop a common understanding of all
 involved stakeholders, that is, domain experts, managers and the development team, of the domain at hand.

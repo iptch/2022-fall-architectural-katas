@@ -22,6 +22,7 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 
 **[3. Domain Design](#domain-design)**
 * [3.1. Event Storming Process](#event-storming-process)
+  * [3.1.1 Event Storming Detailed View](/eventstorming/event-storming.md)
 * [3.2. Architecture Style](#architecture-style)
 * [3.3. Domain capabilities](#domain-capabilities)
     * [3.3.1 Connection Capability](domain/connection-capability.md)
