@@ -35,14 +35,14 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 * [4.1. System Architecture Document](azure/resources/cloud-architecture.md)
 
 **[5. Architecture Decision Records (ADR)](#architecture-decision-records-adr)**
-* [5.1. ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md)
-* [5.1. ADR02 Backend-for-Frontend Pattern](ADRs/02-bff.md)
-* [5.1. ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
-* [5.1. ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
-* [5.1. ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
-* [5.1. ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
-* [5.1. ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md)
-* [5.1. ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)
+* [ADR01 Microservice Architecture](ADRs/01-microservice-architecture.md)
+* [ADR02 Backend-for-Frontend Pattern](ADRs/02-bff.md)
+* [ADR03 Points Redemption Framework](ADRs/03-redeem-points.md)
+* [ADR04 Dispatcher Architecture](ADRs/04-dispatcher-architecture.md)
+* [ADR05 Read Replica Pattern](ADRs/05-read-replica-pattern.md)
+* [ADR06 GDPR Compliance](ADRs/06-GDPR-compliance.md)
+* [ADR07 Azure as a Hyperscaler](ADRs/07-azure-hyperscaler.md)
+* [ADR08 Event-Driven Design](ADRs/08-event-driven-design.md)
 
 **[6. Acknowledgements](#acknowledgements)**
     </td>
