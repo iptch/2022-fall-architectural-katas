@@ -15,7 +15,7 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 
 **[1. Wo we are](#who-we-are)**
 
-**[2. Problem Background](#problem-background)**
+**[2. Problem Statement](#problem-background)**
 * [2.1. Hey, Blue! Vision](#hey-blue-vision)
 * [2.2. Requirements](#requirements)
 * [2.3. Actors Overview](#actors-overview)
@@ -79,7 +79,7 @@ While the former explains the desired functionalities of the application, descri
 represents a set of technical guidelines the system has to adhere to.
 
 ### Context
-In the following we will describe what actors (can be a user, participant or system) might interact in what way with the **Hey, Blue!** system.
+In the following, we will describe what actors (can be a user, participant or system) might interact in what way with the **Hey, Blue!** system.
 For that matter, the diagram displays the main capabilities or intentions a user or system has to its disposal. 
 
 The actors are being divided into internal, i.e. actors which are internal to the **Hey, Blue!** ecosystem and external actors,
