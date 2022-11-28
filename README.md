@@ -22,6 +22,7 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
 
 **[3. Domain Design](#domain-design)**
 * [3.1. Event Storming Process](#event-storming-process)
+  * [3.1.1 Event Storming Detailed View](/eventstorming/event-storming.md)
 * [3.2. Architecture Style](#architecture-style)
 * [3.3. Domain capabilities](#domain-capabilities)
     * [3.3.1 Connection Capability](domain/connection-capability.md)
@@ -116,6 +117,12 @@ Though costs may be higher, we decided to go for a microservice architecture sty
 ### Domain capabilities
 Based on the output of the Event Storming, we defined the following capabilities for each of which we developed a microservice architecture.
 
+#### Capabilities Overview
+The following diagram gives a high-level overview of how the capabilities interact with each other. Further details to each capability is found next.
+<p align="center">
+<img width="800" src="domain/resources/hey-blue-overview.drawio.svg">
+</p>
+
 <table>
 <tr>
     <td style="table-layout: fixed; width: 1000px" align="center">
@@ -146,7 +153,7 @@ Based on the output of the Event Storming, we defined the following capabilities
 ### Legend
 For all of the above, if not stated otherwise in the diagram at hand, the symbols reflect the meaning as described in the following legend.
 <p align="center">
-<img width="800" src="domain/resources/hey-blue-legend.drawio.svg">
+<img width="700" src="domain/resources/hey-blue-legend.drawio.svg">
 </p>
 
 ## System Architecture
