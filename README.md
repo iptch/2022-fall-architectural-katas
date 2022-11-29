@@ -25,10 +25,12 @@ This work represents our contribution to the Fall 2022 Architectural Katas hoste
   * [3.1.1 Event Storming Detailed View](/eventstorming/event-storming.md)
 * [3.2. Architecture Style](#architecture-style)
 * [3.3. Domain capabilities](#domain-capabilities)
-    * [3.3.1 Connection Capability](domain/connection-capability.md)
-    * [3.3.2 Reporting Capability](domain/reporting-capability.md)
-    * [3.3.3 Order Capability](domain/order-capability.md)
-    * [3.3.4 User Capability](domain/user-capability.md)
+  * [3.3.1 Domain capabilities Overview](#capabilities-overview)
+  * [3.3.2 Domain capabilities In-depth](#capabilities-in-depth)
+      * [Connection Capability](domain/connection-capability.md)
+      * [Reporting Capability](domain/reporting-capability.md)
+      * [Order Capability](domain/order-capability.md)
+      * [User Capability](domain/user-capability.md)
 * [3.4. Legend](#legend)
     </td>
     <td>
@@ -115,13 +117,17 @@ Though costs may be higher, we decided to go for a microservice architecture sty
 </p>
 
 ### Domain capabilities
-Based on the output of the Event Storming, we defined the following capabilities for each of which we developed a microservice architecture.
+Based on the output of the Event Storming, we defined the following capabilities for each of which we developed 
+a microservice architecture: [Connection](domain/connection-capability.md), [Order](domain/order-capability.md), [User](domain/user-capability.md), [Report](domain/reporting-capability.md).
 
 #### Capabilities Overview
-The following diagram gives a high-level overview of how the capabilities interact with each other. Further details to each capability is found next.
+The following diagram gives a high-level overview of how the capabilities interact with each other. An in-depth explanation of how each capability works internally
+and what their responsibilities are, is shown in the section up next.
 <p align="center">
 <img width="800" src="domain/resources/hey-blue-capabilities.drawio.svg">
 </p>
+
+#### Capabilities In-Depth
 
 <table>
 <tr>
