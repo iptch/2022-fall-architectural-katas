@@ -4,7 +4,8 @@ This capability is responsible for maintaining user sessions, storing user data,
 of connections between officers and civilians.
 
 ![User Capability](resources/hey-blue-user.drawio.svg)
-<img width="750" src="resources/hey-blue-legend.drawio.svg">
+
+<img width="550" src="resources/hey-blue-legend.drawio.svg">
 
 ## Components
 

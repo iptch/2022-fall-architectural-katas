@@ -124,7 +124,7 @@ a microservice architecture: [Connection](domain/connection-capability.md), [Ord
 The following diagram gives a high-level overview of how the capabilities interact with each other. An in-depth explanation of how each capability works internally
 and what their responsibilities are, is shown in the section up next.
 <p align="center">
-<img width="800" src="domain/resources/hey-blue-capabilities.drawio.svg">
+<img width="900" src="domain/resources/hey-blue-capabilities-overview.drawio.svg">
 </p>
 
 #### Capabilities In-Depth

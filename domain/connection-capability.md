@@ -12,6 +12,8 @@ The following diagram describes the microservice architecture for this capabilit
 <img width="1000" src="../domain/resources/hey-blue-connection.drawio.svg">
 </p>
 
+<img width="550" src="resources/hey-blue-legend.drawio.svg">
+
 
 ## Services
 

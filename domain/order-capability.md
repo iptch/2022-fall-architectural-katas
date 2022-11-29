@@ -3,6 +3,7 @@ The order capability describes the service landscape enabling Civilians or Chari
 services support the architecture decision described in [the redeem points ADR](../ADRs/03-redeem-points.md).
 
 ![Order Capability](resources/hey-blue-order-capability.drawio.svg)
+
 <img width="750" src="resources/hey-blue-legend.drawio.svg">
 
 
