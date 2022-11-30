@@ -166,7 +166,7 @@ For all of the above, if not stated otherwise in the diagram at hand, the symbol
 We used a [domain-driven approach](#domain-design) to define our [service landscape](#domain-capabilities) for the 
 **Hey, Blue!** ecosystem. With those capabilities at hand, we finally propose a cloud-native software solution that can 
 cope with the [requirements](#requirements) and is feasible to implement for an ambitious startup corporation. 
-The design embraces [DevOps](https://en.wikipedia.org/wiki/DevOps), [GitOps]() and 
+The design embraces [DevOps](https://en.wikipedia.org/wiki/DevOps), [GitOps](https://www.redhat.com/de/topics/devops/what-is-gitops) and 
 [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_security_model) principles as first 
 class citizens. As an exemplary cloud vendor we chose [Microsoft Azure](https://azure.microsoft.com/en-us/), however the solution
 can easily be ported to other cloud platforms as described in [ADR07 Azure as a Hyperscaler](ADRs/2022-11-08_07-azure-hyperscaler.md).
